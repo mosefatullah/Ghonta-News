@@ -1,7 +1,7 @@
 import React from "react";
 
 function App() {
- let greetings = ["Salam!", "Hello!", "Welcome!", "Merhaba!"];
+ const greetings: string[] = ["Salam!", "Hello!", "Welcome!", "Merhaba!"];
  return (
   <main className="App bg-gray-100 dark:bg-gray-800 min-h-screen">
    <nav className="bg-white border-gray-200 dark:bg-gray-900 border-b dark:border-gray-600">
